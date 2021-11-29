@@ -1,0 +1,19 @@
+{
+  "config": {
+    "DBConfig": {
+      "FILE": "MySQLConfig.json",
+      "param4": "aaaa"
+    }
+  },
+  "setup": [
+    {
+      "type": "runSQLFile",
+      "params": ["createSchema.sql"]
+    }
+  ],
+  "actions": [
+    {
+
+    }
+  ]
+}

@@ -1,0 +1,2 @@
+DROP DATABASE IF EXISTS `test1_schema`;
+CREATE DATABASE `test1_schema`;
