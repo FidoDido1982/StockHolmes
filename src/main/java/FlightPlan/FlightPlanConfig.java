@@ -1,4 +1,4 @@
-package com.erezkatz.StockHolmes.FlightPlan;
+package FlightPlan;
 
 import org.json.JSONObject;
 
@@ -7,8 +7,8 @@ import java.io.IOException;
 import java.util.Map;
 import java.util.Scanner;
 
-import static com.erezkatz.StockHolmes.utils.FileUtils.getJSONObjectFromName;
-import static com.erezkatz.StockHolmes.utils.FileUtils.getMapFromShallowJsonObject;
+import static utils.FileUtils.getJSONObjectFromName;
+import static utils.FileUtils.getMapFromShallowJsonObject;
 
 public class FlightPlanConfig {
     private Map DBConfig;

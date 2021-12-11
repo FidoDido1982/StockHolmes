@@ -1,6 +1,6 @@
-package com.erezkatz.StockHolmes.utils;
+package utils;
 
-import com.erezkatz.StockHolmes.FlightPlan.FlightPlan;
+import FlightPlan.FlightPlan;
 import org.json.JSONException;
 import org.json.JSONObject;
 import org.json.JSONTokener;

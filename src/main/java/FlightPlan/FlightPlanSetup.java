@@ -1,4 +1,4 @@
-package com.erezkatz.StockHolmes.FlightPlan;
+package FlightPlan;
 
 import org.json.JSONArray;
 import org.json.JSONObject;

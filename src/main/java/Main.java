@@ -1,8 +1,6 @@
-package com.erezkatz.StockHolmes;
-
-import com.erezkatz.StockHolmes.FlightPlan.FlightPlan;
-import com.erezkatz.StockHolmes.FlightPlan.FlightPlanConfig;
-import com.erezkatz.StockHolmes.FlightPlan.FlightPlanSetupAction;
+import FlightPlan.FlightPlan;
+import FlightPlan.FlightPlanSetupAction;
+import org.apache.log4j.xml.DOMConfigurator;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -15,8 +13,8 @@ import java.util.Arrays;
 
 import static java.lang.System.exit;
 
-public class main {
-    final static Logger logger = LoggerFactory.getLogger(main.class);
+public class Main {
+    final static Logger logger = LoggerFactory.getLogger(Main.class);
     static FlightPlan flightPlan;
 
     public static void runSQLFile(String fileName) {
@@ -47,7 +45,7 @@ public class main {
     private static void invokeMethod(String methodName, Object[] params) {
         Class[] argTypes = Arrays.stream(params).map(Object::getClass).toArray(Class[]::new);
         try {
-            Method method = main.class.getMethod(methodName, argTypes);
+            Method method = Main.class.getMethod(methodName, argTypes);
             method.invoke(null, params);
         } catch (NoSuchMethodException exception) {
             logger.error("Failed executing a method called " + methodName + " with " + argTypes.length + " parameters.");
@@ -58,6 +56,7 @@ public class main {
     }
 
     public static void main(String[] args) {
+        DOMConfigurator.configure("log4j.xml");
         logger.info("Starting StockHolmes!");
         if (args.length != 1) {
             logger.error("Syntax: main <FlightPlan.json>");

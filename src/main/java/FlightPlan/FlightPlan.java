@@ -1,7 +1,7 @@
-package com.erezkatz.StockHolmes.FlightPlan;
+package FlightPlan;
 import org.json.JSONObject;
 
-import static com.erezkatz.StockHolmes.utils.FileUtils.getJSONObjectFromName;
+import static utils.FileUtils.getJSONObjectFromName;
 
 public class FlightPlan {
     private FlightPlanConfig config;

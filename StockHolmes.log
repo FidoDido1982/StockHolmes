@@ -1,0 +1,28 @@
+2021-12-11 22:03:00 INFO  Main:61 - Starting StockHolmes!
+2021-12-11 22:03:00 ERROR Main:63 - Syntax: main <FlightPlan.json>
+2021-12-11 22:03:32 INFO  Main:61 - Starting StockHolmes!
+2021-12-11 22:03:32 ERROR Main:63 - Syntax: main <FlightPlan.json>
+2021-12-11 22:05:26 INFO  Main:61 - Starting StockHolmes!
+2021-12-11 22:08:16 INFO  Main:61 - Starting StockHolmes!
+2021-12-11 22:08:16 INFO  Main:21 - Running runSQLFile. File Name: createSchema.sql
+2021-12-11 22:08:16 ERROR Main:40 - Could not connect to database or execute SQL command.
+2021-12-11 22:10:00 INFO  Main:61 - Starting StockHolmes!
+2021-12-11 22:10:00 INFO  Main:21 - Running runSQLFile. File Name: createSchema.sql
+2021-12-11 22:10:01 INFO  Main:36 - After creating a connection
+2021-12-11 22:10:01 INFO  Main:38 - Done
+2021-12-11 22:12:54 INFO  Main:60 - Starting StockHolmes!
+2021-12-11 22:12:54 INFO  Main:21 - Running runSQLFile. File Name: createSchema.sql
+2021-12-11 22:12:56 INFO  Main:36 - After creating a connection
+2021-12-11 22:12:56 INFO  Main:38 - Done
+2021-12-11 22:15:48 INFO  Main:60 - Starting StockHolmes!
+2021-12-11 22:15:48 INFO  Main:21 - Running runSQLFile. File Name: createSchema.sql
+2021-12-11 22:15:49 INFO  Main:36 - After creating a connection
+2021-12-11 22:15:49 INFO  Main:38 - Done
+2021-12-11 22:18:01 INFO  Main:60 - Starting StockHolmes!
+2021-12-11 22:18:01 INFO  Main:21 - Running runSQLFile. File Name: createSchema.sql
+2021-12-11 22:18:02 INFO  Main:36 - After creating a connection
+2021-12-11 22:18:02 INFO  Main:38 - Done
+2021-12-11 22:21:54 INFO  Main:60 - Starting StockHolmes!
+2021-12-11 22:21:54 INFO  Main:21 - Running runSQLFile. File Name: createSchema.sql
+2021-12-11 22:21:55 INFO  Main:36 - After creating a connection
+2021-12-11 22:21:55 INFO  Main:38 - Done
