@@ -1,8 +1,7 @@
 {
   "config": {
     "DBConfig": {
-      "FILE": "MySQLConfig.json",
-      "param4": "aaaa"
+      "FILE": "MySQLConfig.json"
     }
   },
   "setup": [

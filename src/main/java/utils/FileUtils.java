@@ -4,12 +4,16 @@ import FlightPlan.FlightPlan;
 import org.json.JSONException;
 import org.json.JSONObject;
 import org.json.JSONTokener;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
 import java.io.InputStream;
 import java.util.HashMap;
 import java.util.Map;
 
 public class FileUtils {
+
+    final static Logger logger = LoggerFactory.getLogger(FileUtils.class);
 
     public static JSONObject getJSONObjectFromName(String jsonFileName) {
         InputStream is = FlightPlan.class.getClassLoader().getResourceAsStream(jsonFileName);
@@ -27,7 +31,7 @@ public class FileUtils {
             }
             return returnMap;
         } catch (JSONException e) {
-            // TODO: log
+            logger.error("Could not parse JSon object " + jsonObject);
             return null;
         }
     }

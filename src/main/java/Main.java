@@ -10,6 +10,7 @@ import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.PreparedStatement;
 import java.util.Arrays;
+import java.util.Map;
 
 import static java.lang.System.exit;
 
@@ -21,6 +22,11 @@ public class Main {
         logger.info("Running runSQLFile. File Name: " + fileName);
         // Defines the JDBC URL. As you can see, we are not specifying
         // the database name in the URL.
+        Map dbConfig = flightPlan.getConfig().getDBConfig();
+        if (dbConfig == null) {
+            logger.error("Could not load DB configuration from " + fileName + "!");
+            return;
+        }
         String url = flightPlan.getConfig().getDBConfig().get("url").toString();
 
         // Defines username and password to connect to database server.

@@ -26,3 +26,25 @@
 2021-12-11 22:21:54 INFO  Main:21 - Running runSQLFile. File Name: createSchema.sql
 2021-12-11 22:21:55 INFO  Main:36 - After creating a connection
 2021-12-11 22:21:55 INFO  Main:38 - Done
+2021-12-11 22:27:43 INFO  Main:60 - Starting StockHolmes!
+2021-12-11 22:27:43 INFO  Main:21 - Running runSQLFile. File Name: createSchema.sql
+2021-12-11 22:27:44 INFO  Main:36 - After creating a connection
+2021-12-11 22:27:44 INFO  Main:38 - Done
+2021-12-11 22:31:38 INFO  Main:60 - Starting StockHolmes!
+2021-12-11 22:31:38 INFO  Main:21 - Running runSQLFile. File Name: createSchema.sql
+2021-12-11 22:31:39 INFO  Main:36 - After creating a connection
+2021-12-11 22:31:39 INFO  Main:38 - Done
+2021-12-11 22:31:58 INFO  Main:60 - Starting StockHolmes!
+2021-12-11 22:31:58 ERROR FileUtils:34 - Could not parse JSon object {"FILE":null}
+2021-12-11 22:35:53 INFO  Main:66 - Starting StockHolmes!
+2021-12-11 22:35:53 ERROR FileUtils:34 - Could not parse JSon object {"FILE":null}
+2021-12-11 22:35:53 INFO  Main:22 - Running runSQLFile. File Name: createSchema.sql
+2021-12-11 22:35:53 ERROR Main:27 - Could not load DB configuration from createSchema.sql
+2021-12-11 22:36:36 INFO  Main:66 - Starting StockHolmes!
+2021-12-11 22:36:36 ERROR FileUtils:34 - Could not parse JSon object {"FILE":null}
+2021-12-11 22:36:36 INFO  Main:22 - Running runSQLFile. File Name: createSchema.sql
+2021-12-11 22:36:36 ERROR Main:27 - Could not load DB configuration from createSchema.sql!
+2021-12-11 22:36:50 INFO  Main:66 - Starting StockHolmes!
+2021-12-11 22:36:50 INFO  Main:22 - Running runSQLFile. File Name: createSchema.sql
+2021-12-11 22:36:51 INFO  Main:42 - After creating a connection
+2021-12-11 22:36:51 INFO  Main:44 - Done

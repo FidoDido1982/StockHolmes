@@ -19,7 +19,7 @@ public class FlightPlanConfig {
 
     private Map getMapFromJsonObject(JSONObject jsonObject) {
         Map fieldsMap = getMapFromShallowJsonObject(jsonObject);
-        if (fieldsMap.containsKey("FILE")) {
+        if (fieldsMap != null && fieldsMap.containsKey("FILE")) {
             Map fieldsFromFile = getMapFromShallowJsonObject(getJSONObjectFromName(fieldsMap.get("FILE").toString()));
             fieldsMap.remove("FILE");
             fieldsMap.putAll(fieldsFromFile);
