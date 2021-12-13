@@ -8,7 +8,7 @@ CREATE TABLE `StockHolmes_dev`.`exchanges` (
   `description` VARCHAR(80) NULL,
   `country` VARCHAR(45) NOT NULL,
   `currency` VARCHAR(10) NOT NULL,
-  `start_hour` DATETIME NOT NULL,
-  `end_hour` DATETIME NOT NULL,
+  `start_hour` TIME NOT NULL,
+  `end_hour` TIME NOT NULL,
   PRIMARY KEY (`id`),
   UNIQUE INDEX `id_UNIQUE` (`id` ASC) VISIBLE);

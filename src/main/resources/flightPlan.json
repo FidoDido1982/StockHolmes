@@ -8,6 +8,10 @@
     {
       "type": "runSQLFile",
       "params": ["createSchema.sql"]
+    },
+    {
+      "type": "runSQLFile",
+      "params": ["populateStaticTables.sql"]
     }
   ],
   "actions": [
