@@ -9,10 +9,13 @@ import java.lang.reflect.Method;
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.PreparedStatement;
+import java.sql.SQLException;
 import java.util.Arrays;
 import java.util.Map;
 
 import static java.lang.System.exit;
+import static utils.FileUtils.readTextFile;
+import static utils.FileUtils.readTextFileFromResources;
 
 public class Main {
     final static Logger logger = LoggerFactory.getLogger(Main.class);
@@ -20,32 +23,43 @@ public class Main {
 
     public static void runSQLFile(String fileName) {
         logger.info("Running runSQLFile. File Name: " + fileName);
-        // Defines the JDBC URL. As you can see, we are not specifying
-        // the database name in the URL.
         Map dbConfig = flightPlan.getConfig().getDBConfig();
         if (dbConfig == null) {
-            logger.error("Could not load DB configuration from " + fileName + "!");
+            logger.error("Could not load DB configuration DBConfig!");
             return;
         }
+        // Get parameters to connect to the DB
         String url = flightPlan.getConfig().getDBConfig().get("url").toString();
-
-        // Defines username and password to connect to database server.
-
         String username = flightPlan.getConfig().getDBConfig().get("username").toString();
         String password = flightPlan.getConfig().getDBConfig().get("password").toString();
 
         // SQL command to create a database in MySQL.
-        String sql = "CREATE DATABASE IF NOT EXISTS DEMODB";
-
-        try (Connection conn = DriverManager.getConnection(url, username, password);
-             PreparedStatement stmt = conn.prepareStatement(sql)) {
-            logger.info("After creating a connection");
-            stmt.execute();
-            logger.info("Done");
-        } catch (Exception e) {
-            logger.error("Could not connect to database or execute SQL command.");
-            e.printStackTrace();
+        String sql = readTextFileFromResources(fileName);
+        if (sql == null) {
+            logger.error("Could not read SQL file " + fileName);
+            return;
         }
+
+        Connection conn = null;
+        try {
+            conn = DriverManager.getConnection(url, username, password);
+            logger.info("Successfully created SQL connection to " + url);
+        } catch (SQLException e) {
+            logger.error("Could not establish SQL connection. URL: " + url + ", username: " + username +
+                    ", password: " + password);
+            return;
+        }
+        String[] queries = sql.split(";");
+        for (String query : queries) {
+            try {
+                PreparedStatement stmt = conn.prepareStatement(query);
+                stmt.execute();
+            } catch (SQLException ex) {
+                logger.error("Could not execute SQL query " + query);
+                return;
+            }
+        }
+        logger.info("Done executing " + queries.length + " queries.");
     }
 
     private static void invokeMethod(String methodName, Object[] params) {

@@ -48,3 +48,176 @@
 2021-12-11 22:36:50 INFO  Main:22 - Running runSQLFile. File Name: createSchema.sql
 2021-12-11 22:36:51 INFO  Main:42 - After creating a connection
 2021-12-11 22:36:51 INFO  Main:44 - Done
+2021-12-11 22:46:02 INFO  Main:66 - Starting StockHolmes!
+2021-12-11 22:46:02 INFO  Main:22 - Running runSQLFile. File Name: createSchema.sql
+2021-12-11 22:46:03 INFO  Main:42 - After creating a connection
+2021-12-11 22:46:03 INFO  Main:44 - Done
+2021-12-11 22:46:26 INFO  Main:66 - Starting StockHolmes!
+2021-12-11 22:46:26 INFO  Main:22 - Running runSQLFile. File Name: createSchema.sql
+2021-12-11 22:46:27 INFO  Main:42 - After creating a connection
+2021-12-11 22:46:27 INFO  Main:44 - Done
+2021-12-11 22:48:30 INFO  Main:66 - Starting StockHolmes!
+2021-12-11 22:48:30 INFO  Main:22 - Running runSQLFile. File Name: createSchema.sql
+2021-12-11 22:48:31 INFO  Main:42 - After creating a connection
+2021-12-11 22:48:31 INFO  Main:44 - Done
+2021-12-11 22:49:00 INFO  Main:66 - Starting StockHolmes!
+2021-12-11 22:49:00 INFO  Main:22 - Running runSQLFile. File Name: createSchema.sql
+2021-12-11 22:49:01 INFO  Main:42 - After creating a connection
+2021-12-11 22:49:01 INFO  Main:44 - Done
+2021-12-11 22:57:53 INFO  Main:63 - Starting StockHolmes!
+2021-12-11 22:57:53 INFO  Main:23 - Running runSQLFile. File Name: createSchema.sql
+2021-12-11 22:57:53 ERROR FileUtils:55 - An error occurred while trying to read text file createSchema.sql
+2021-12-11 22:57:54 ERROR Main:43 - Could not connect to database or execute SQL command.
+2021-12-11 22:59:00 INFO  Main:67 - Starting StockHolmes!
+2021-12-11 22:59:00 INFO  Main:23 - Running runSQLFile. File Name: createSchema.sql
+2021-12-11 22:59:00 ERROR FileUtils:55 - An error occurred while trying to read text file createSchema.sql
+2021-12-11 22:59:00 ERROR Main:37 - Could not read SQL file createSchema.sql
+2021-12-11 23:07:53 INFO  Main:67 - Starting StockHolmes!
+2021-12-11 23:07:53 INFO  Main:23 - Running runSQLFile. File Name: createSchema.sql
+2021-12-11 23:07:53 ERROR FileUtils:73 - An error occurred while trying to read text file createSchema.sql
+2021-12-11 23:07:53 ERROR Main:37 - Could not read SQL file createSchema.sql
+2021-12-11 23:08:22 INFO  Main:68 - Starting StockHolmes!
+2021-12-11 23:08:22 INFO  Main:24 - Running runSQLFile. File Name: createSchema.sql
+2021-12-11 23:08:22 ERROR FileUtils:73 - An error occurred while trying to read text file file:/Users/erez/IdeaProjects/StockHolmes/target/classes/createSchema.sql
+2021-12-11 23:08:22 ERROR Main:38 - Could not read SQL file createSchema.sql
+2021-12-11 23:09:49 INFO  Main:68 - Starting StockHolmes!
+2021-12-11 23:09:49 INFO  Main:24 - Running runSQLFile. File Name: createSchema.sql
+2021-12-11 23:13:32 ERROR FileUtils:73 - An error occurred while trying to read text file file:/Users/erez/IdeaProjects/StockHolmes/target/classes/createSchema.sql
+2021-12-11 23:13:32 ERROR Main:38 - Could not read SQL file createSchema.sql
+2021-12-11 23:14:00 INFO  Main:68 - Starting StockHolmes!
+2021-12-11 23:14:00 INFO  Main:24 - Running runSQLFile. File Name: createSchema.sql
+2021-12-11 23:14:00 ERROR FileUtils:73 - An error occurred while trying to read text file file:/Users/erez/IdeaProjects/StockHolmes/target/classes/createSchema.sql
+2021-12-11 23:14:00 ERROR Main:38 - Could not read SQL file createSchema.sql
+2021-12-11 23:14:38 INFO  Main:68 - Starting StockHolmes!
+2021-12-11 23:14:38 INFO  Main:24 - Running runSQLFile. File Name: createSchema.sql1
+2021-12-11 23:14:38 ERROR FileUtils:48 - Could not find file createSchema.sql1 in reources folder!
+2021-12-11 23:14:38 ERROR Main:38 - Could not read SQL file createSchema.sql1
+2021-12-11 23:15:04 INFO  Main:68 - Starting StockHolmes!
+2021-12-11 23:15:04 INFO  Main:24 - Running runSQLFile. File Name: createSchema.sql
+2021-12-11 23:15:04 ERROR FileUtils:73 - An error occurred while trying to read text file file:/Users/erez/IdeaProjects/StockHolmes/target/classes/createSchema.sql
+2021-12-11 23:15:04 ERROR Main:38 - Could not read SQL file createSchema.sql
+2021-12-11 23:24:21 INFO  Main:68 - Starting StockHolmes!
+2021-12-11 23:24:21 INFO  Main:24 - Running runSQLFile. File Name: createSchema.sql
+2021-12-11 23:24:21 ERROR FileUtils:54 - File createSchema.sql not found!
+2021-12-11 23:24:21 ERROR Main:38 - Could not read SQL file createSchema.sql
+2021-12-11 23:27:08 INFO  Main:68 - Starting StockHolmes!
+2021-12-11 23:27:08 INFO  Main:24 - Running runSQLFile. File Name: createSchema.sql
+2021-12-11 23:27:08 ERROR Main:61 - java.lang.reflect.InvocationTargetException
+2021-12-11 23:27:08 ERROR Main:62 - 
+2021-12-11 23:27:43 INFO  Main:68 - Starting StockHolmes!
+2021-12-11 23:27:43 INFO  Main:24 - Running runSQLFile. File Name: createSchema.sql
+2021-12-11 23:28:50 ERROR Main:61 - java.lang.reflect.InvocationTargetException
+2021-12-11 23:28:50 ERROR Main:62 - 
+2021-12-11 23:28:56 INFO  Main:68 - Starting StockHolmes!
+2021-12-11 23:28:56 INFO  Main:24 - Running runSQLFile. File Name: createSchema.sql
+2021-12-11 23:29:45 ERROR Main:61 - java.lang.reflect.InvocationTargetException
+2021-12-11 23:29:45 ERROR Main:62 - 
+2021-12-11 23:30:00 INFO  Main:68 - Starting StockHolmes!
+2021-12-11 23:30:00 INFO  Main:24 - Running runSQLFile. File Name: createSchema.sql
+2021-12-11 23:30:35 ERROR Main:61 - java.lang.reflect.InvocationTargetException
+2021-12-11 23:30:35 ERROR Main:62 - 
+2021-12-11 23:30:40 INFO  Main:68 - Starting StockHolmes!
+2021-12-11 23:30:40 INFO  Main:24 - Running runSQLFile. File Name: createSchema.sql
+2021-12-11 23:31:22 ERROR Main:61 - java.lang.reflect.InvocationTargetException
+2021-12-11 23:31:22 ERROR Main:62 - 
+2021-12-11 23:33:17 INFO  Main:68 - Starting StockHolmes!
+2021-12-11 23:33:17 INFO  Main:24 - Running runSQLFile. File Name: createSchema.sql
+2021-12-11 23:33:44 INFO  Main:68 - Starting StockHolmes!
+2021-12-11 23:33:44 INFO  Main:24 - Running runSQLFile. File Name: createSchema.sql
+2021-12-11 23:33:45 INFO  Main:44 - After creating a connection
+2021-12-11 23:33:45 ERROR Main:48 - Could not connect to database or execute SQL command.
+2021-12-11 23:34:20 INFO  Main:68 - Starting StockHolmes!
+2021-12-11 23:34:20 INFO  Main:24 - Running runSQLFile. File Name: createSchema.sql
+2021-12-11 23:34:21 INFO  Main:44 - After creating a connection
+2021-12-11 23:34:21 ERROR Main:48 - Could not connect to database or execute SQL command.
+2021-12-11 23:34:35 INFO  Main:68 - Starting StockHolmes!
+2021-12-11 23:34:35 INFO  Main:24 - Running runSQLFile. File Name: createSchema.sql
+2021-12-11 23:34:36 INFO  Main:44 - After creating a connection
+2021-12-11 23:34:36 ERROR Main:48 - Could not connect to database or execute SQL command.
+2021-12-11 23:46:23 INFO  Main:68 - Starting StockHolmes!
+2021-12-11 23:46:23 INFO  Main:24 - Running runSQLFile. File Name: createSchema.sql
+2021-12-11 23:46:24 INFO  Main:44 - After creating a connection
+2021-12-11 23:46:24 ERROR Main:48 - Could not connect to database or execute SQL command.
+2021-12-11 23:46:53 INFO  Main:68 - Starting StockHolmes!
+2021-12-11 23:46:53 INFO  Main:24 - Running runSQLFile. File Name: createSchema.sql
+2021-12-11 23:46:54 INFO  Main:44 - After creating a connection
+2021-12-11 23:46:54 ERROR Main:48 - Could not connect to database or execute SQL command.
+2021-12-11 23:47:32 INFO  Main:68 - Starting StockHolmes!
+2021-12-11 23:47:32 INFO  Main:24 - Running runSQLFile. File Name: createSchema.sql
+2021-12-11 23:47:33 INFO  Main:44 - After creating a connection
+2021-12-11 23:47:33 ERROR Main:48 - Could not connect to database or execute SQL command.
+2021-12-11 23:48:19 INFO  Main:68 - Starting StockHolmes!
+2021-12-11 23:48:19 INFO  Main:24 - Running runSQLFile. File Name: createSchema.sql
+2021-12-11 23:48:20 INFO  Main:44 - After creating a connection
+2021-12-11 23:48:20 ERROR Main:48 - Could not connect to database or execute SQL command.
+2021-12-11 23:49:49 INFO  Main:68 - Starting StockHolmes!
+2021-12-11 23:49:49 INFO  Main:24 - Running runSQLFile. File Name: createSchema.sql
+2021-12-11 23:49:50 INFO  Main:44 - After creating a connection
+2021-12-11 23:49:50 ERROR Main:48 - Could not connect to database or execute SQL command.
+2021-12-11 23:51:54 INFO  Main:68 - Starting StockHolmes!
+2021-12-11 23:51:54 INFO  Main:24 - Running runSQLFile. File Name: createSchema.sql
+2021-12-11 23:51:55 INFO  Main:44 - After creating a connection
+2021-12-11 23:51:55 ERROR Main:48 - Could not connect to database or execute SQL command.
+2021-12-11 23:52:10 INFO  Main:68 - Starting StockHolmes!
+2021-12-11 23:52:10 INFO  Main:24 - Running runSQLFile. File Name: createSchema.sql
+2021-12-11 23:52:11 INFO  Main:44 - After creating a connection
+2021-12-11 23:52:11 INFO  Main:46 - Done
+2021-12-11 23:54:23 INFO  Main:68 - Starting StockHolmes!
+2021-12-11 23:54:23 INFO  Main:24 - Running runSQLFile. File Name: createSchema.sql
+2021-12-11 23:54:24 INFO  Main:44 - After creating a connection
+2021-12-11 23:54:24 ERROR Main:48 - Could not connect to database or execute SQL command.
+2021-12-11 23:54:49 INFO  Main:68 - Starting StockHolmes!
+2021-12-11 23:54:49 INFO  Main:24 - Running runSQLFile. File Name: createSchema.sql
+2021-12-11 23:54:50 INFO  Main:44 - After creating a connection
+2021-12-11 23:54:50 ERROR Main:48 - Could not connect to database or execute SQL command.
+2021-12-11 23:55:16 INFO  Main:68 - Starting StockHolmes!
+2021-12-11 23:55:16 INFO  Main:24 - Running runSQLFile. File Name: createSchema.sql
+2021-12-11 23:55:17 INFO  Main:44 - After creating a connection
+2021-12-11 23:55:17 ERROR Main:48 - Could not connect to database or execute SQL command.
+2021-12-11 23:57:58 INFO  Main:68 - Starting StockHolmes!
+2021-12-11 23:57:58 INFO  Main:24 - Running runSQLFile. File Name: createSchema.sql
+2021-12-11 23:57:59 INFO  Main:44 - After creating a connection
+2021-12-11 23:57:59 INFO  Main:46 - Done
+2021-12-11 23:58:18 INFO  Main:68 - Starting StockHolmes!
+2021-12-11 23:58:18 INFO  Main:24 - Running runSQLFile. File Name: createSchema.sql
+2021-12-11 23:58:19 INFO  Main:44 - After creating a connection
+2021-12-11 23:58:20 ERROR Main:48 - Could not connect to database or execute SQL command.
+2021-12-11 23:58:42 INFO  Main:68 - Starting StockHolmes!
+2021-12-11 23:58:42 INFO  Main:24 - Running runSQLFile. File Name: createSchema.sql
+2021-12-11 23:58:43 INFO  Main:44 - After creating a connection
+2021-12-11 23:58:43 ERROR Main:48 - Could not connect to database or execute SQL command.
+2021-12-12 00:01:33 INFO  Main:68 - Starting StockHolmes!
+2021-12-12 00:01:33 INFO  Main:24 - Running runSQLFile. File Name: createSchema.sql
+2021-12-12 00:01:34 INFO  Main:44 - After creating a connection
+2021-12-12 00:01:34 INFO  Main:46 - Done
+2021-12-12 00:02:20 INFO  Main:68 - Starting StockHolmes!
+2021-12-12 00:02:20 INFO  Main:24 - Running runSQLFile. File Name: createSchema.sql
+2021-12-12 00:02:21 INFO  Main:44 - After creating a connection
+2021-12-12 00:02:21 ERROR Main:48 - Could not connect to database or execute SQL command.
+2021-12-12 00:02:33 INFO  Main:68 - Starting StockHolmes!
+2021-12-12 00:02:34 INFO  Main:24 - Running runSQLFile. File Name: createSchema.sql
+2021-12-12 00:02:35 INFO  Main:44 - After creating a connection
+2021-12-12 00:02:35 INFO  Main:46 - Done
+2021-12-12 00:02:51 INFO  Main:68 - Starting StockHolmes!
+2021-12-12 00:02:51 INFO  Main:24 - Running runSQLFile. File Name: createSchema.sql
+2021-12-12 00:02:52 INFO  Main:44 - After creating a connection
+2021-12-12 00:02:52 ERROR Main:48 - Could not connect to database or execute SQL command.
+2021-12-12 00:03:08 INFO  Main:68 - Starting StockHolmes!
+2021-12-12 00:03:08 INFO  Main:24 - Running runSQLFile. File Name: createSchema.sql
+2021-12-12 00:03:09 INFO  Main:44 - After creating a connection
+2021-12-12 00:03:09 ERROR Main:48 - Could not connect to database or execute SQL command.
+2021-12-12 00:03:19 INFO  Main:68 - Starting StockHolmes!
+2021-12-12 00:03:19 INFO  Main:24 - Running runSQLFile. File Name: createSchema.sql
+2021-12-12 00:03:20 INFO  Main:44 - After creating a connection
+2021-12-12 00:03:20 INFO  Main:46 - Done
+2021-12-12 00:03:32 INFO  Main:68 - Starting StockHolmes!
+2021-12-12 00:03:32 INFO  Main:24 - Running runSQLFile. File Name: createSchema.sql
+2021-12-12 00:03:33 INFO  Main:44 - After creating a connection
+2021-12-12 00:03:33 INFO  Main:46 - Done
+2021-12-13 17:15:25 INFO  Main:79 - Starting StockHolmes!
+2021-12-13 17:15:25 INFO  Main:25 - Running runSQLFile. File Name: createSchema.sql
+2021-12-13 17:15:26 INFO  Main:46 - Successfully created SQL connection to jdbc:mysql://localhost:3306?useSSL=false
+2021-12-13 17:16:43 INFO  Main:80 - Starting StockHolmes!
+2021-12-13 17:16:43 INFO  Main:25 - Running runSQLFile. File Name: createSchema.sql
+2021-12-13 17:16:44 INFO  Main:46 - Successfully created SQL connection to jdbc:mysql://localhost:3306?useSSL=false
+2021-12-13 17:16:44 INFO  Main:62 - Done executing 3 queries.
