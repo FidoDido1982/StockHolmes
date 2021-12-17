@@ -86,7 +86,8 @@ public class Main {
 
         FlightPlanSetupAction[] setupActions = flightPlan.getSetup().getActions();
         for (int i = 0; i < setupActions.length; i++) {
-            invokeMethod(setupActions[i].getType(), setupActions[i].getParams());
+            if (setupActions[i].getEnabled())
+                invokeMethod(setupActions[i].getType(), setupActions[i].getParams());
         }
     }
 }

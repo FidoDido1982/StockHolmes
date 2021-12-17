@@ -7,11 +7,13 @@
   "setup": [
     {
       "type": "runSQLFile",
-      "params": ["createSchema.sql"]
+      "params": ["createSchema.sql"],
+      "enabled": true
     },
     {
       "type": "runSQLFile",
-      "params": ["populateStaticTables.sql"]
+      "params": ["populateStaticTables.sql"],
+      "enabled": true
     }
   ],
   "actions": [
