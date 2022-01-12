@@ -1,6 +1,7 @@
 FlightPlan/FlightPlanConfig.class
-FlightPlan/FlightPlanSetup.class
 Main.class
-utils/FileUtils.class
+utils/DBUtils.class
 FlightPlan/FlightPlanSetupAction.class
 FlightPlan/FlightPlan.class
+FlightPlan/FlightPlanSetup.class
+utils/FileUtils.class

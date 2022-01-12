@@ -1,6 +1,7 @@
-/Users/erez/IdeaProjects/StockHolmesDetective/src/main/java/FlightPlan/FlightPlanConfig.java
-/Users/erez/IdeaProjects/StockHolmesDetective/src/main/java/Main.java
-/Users/erez/IdeaProjects/StockHolmesDetective/src/main/java/FlightPlan/FlightPlanSetupAction.java
-/Users/erez/IdeaProjects/StockHolmesDetective/src/main/java/FlightPlan/FlightPlanSetup.java
-/Users/erez/IdeaProjects/StockHolmesDetective/src/main/java/utils/FileUtils.java
-/Users/erez/IdeaProjects/StockHolmesDetective/src/main/java/FlightPlan/FlightPlan.java
+/Users/erez/IdeaProjects/StockHolmes/src/main/java/FlightPlan/FlightPlanSetup.java
+/Users/erez/IdeaProjects/StockHolmes/src/main/java/utils/FileUtils.java
+/Users/erez/IdeaProjects/StockHolmes/src/main/java/FlightPlan/FlightPlanSetupAction.java
+/Users/erez/IdeaProjects/StockHolmes/src/main/java/FlightPlan/FlightPlanConfig.java
+/Users/erez/IdeaProjects/StockHolmes/src/main/java/utils/DBUtils.java
+/Users/erez/IdeaProjects/StockHolmes/src/main/java/FlightPlan/FlightPlan.java
+/Users/erez/IdeaProjects/StockHolmes/src/main/java/Main.java

@@ -14,6 +14,11 @@
       "type": "runSQLFile",
       "params": ["populateStaticTables.sql"],
       "enabled": true
+    },
+    {
+      "type": "exportTable",
+      "params": ["exchanges", "exchanges.csv"],
+      "enabled": true
     }
   ],
   "actions": [

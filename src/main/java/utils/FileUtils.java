@@ -18,6 +18,23 @@ public class FileUtils {
 
     final static Logger logger = LoggerFactory.getLogger(FileUtils.class);
 
+    public static boolean resourceExists(String name) {
+        URL url = FileUtils.class.getClassLoader().getResource(name);
+        url = FileUtils.class.getClassLoader().getResource("flightPlan.json");
+        return (FileUtils.class.getClassLoader().getResource(name) != null);
+    }
+
+    public static void deleteResource(String name) {
+        try {
+            File file = Paths.get(FileUtils.class.getClassLoader().getResource(name).toURI()).toFile();
+            if (!file.delete()) {
+                logger.error("An error occurred while trying to delete the resource file " + name);
+            }
+        } catch (URISyntaxException ex) {
+            logger.error("A URISyntaxException occurred while trying to delete the resource file " + name + ": " + ex);
+        }
+    }
+
     public static JSONObject getJSONObjectFromName(String jsonFileName) {
         InputStream is = FlightPlan.class.getClassLoader().getResourceAsStream(jsonFileName);
         if (is == null) {
