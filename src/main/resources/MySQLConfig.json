@@ -3,5 +3,5 @@
   "username": "root",
   "password": "12345678",
   "schema": "StockHolmes_dev",
-  "secureFilePrivFolder": "~/IdeaProjects/StockHolmes/src/main/resources/"
+  "secureFilePrivFolder": "/Users/erez/StockHolmesData/"
 }
