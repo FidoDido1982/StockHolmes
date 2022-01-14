@@ -95,7 +95,7 @@ public class FileUtils {
             reader = new BufferedReader(new FileReader(fileName));
             String line = reader.readLine();
             while (line != null) {
-                sb.append(line);
+                sb.append(line + '\n');
                 // read next line
                 line = reader.readLine();
             }

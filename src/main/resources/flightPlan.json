@@ -13,10 +13,15 @@
     {
       "type": "runSQLFile",
       "params": ["populateStaticTables.sql"],
-      "enabled": true
+      "enabled": false
     },
     {
       "type": "exportTable",
+      "params": ["exchanges", "exchanges.csv"],
+      "enabled": false
+    },
+    {
+      "type": "importTable",
       "params": ["exchanges", "exchanges.csv"],
       "enabled": true
     }

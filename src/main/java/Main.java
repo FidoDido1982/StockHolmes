@@ -78,6 +78,40 @@ public class Main {
         logger.info("Done exporting!");
     }
 
+    private static String buildInsertQuery(String tableName, String[] valuesToInsert) {
+        StringBuilder sb = new StringBuilder("INSERT INTO " + tableName + " VALUES\n");
+        for (String row : valuesToInsert) {
+            sb.append("(" + row + "),\n");
+        }
+        sb.replace(sb.length() - 2, sb.length() - 1, ";");
+        return sb.toString();
+    }
+
+    public static void importTable(String tableName, String fileName) {
+        logger.info("Starting to import file " + fileName + " to table " + tableName);
+        Connection conn = DBUtils.getConnection();
+        if (conn == null) {
+            logger.error("An error occurred while trying to get DB connection");
+            return;
+        }
+        Map<String, String> configMap = FlightPlan.getFlightPlan().getConfig().getDBConfig();
+        Map<String, String> dbConfig = FlightPlan.getFlightPlan().getConfig().getDBConfig();
+        String path = dbConfig.get("secureFilePrivFolder") + fileName;
+        String[] valuesToInsert = utils.FileUtils.readTextFile(path).split("\n");
+        String query = buildInsertQuery(dbConfig.get("schema") + "." + tableName, valuesToInsert);
+
+
+        try {
+            PreparedStatement stmt = conn.prepareStatement(query);
+            stmt.execute();
+        } catch (SQLException ex) {
+            logger.error("Could not execute SQL query " + query);
+            logger.error("SQL Exception: " + ex);
+            return;
+        }
+        logger.info("Done importing!");
+    }
+
     private static void invokeMethod(String methodName, Object[] params) {
         Class[] argTypes = Arrays.stream(params).map(Object::getClass).toArray(Class[]::new);
         try {
